@@ -55,4 +55,4 @@ fondy.Checkout(requestData).then(data => {
 See [docs](https://docs.fondy.eu/)
 
 ## Examples
-[Checkout examples](https://github.com/has-well/cloudipsp-node-js-sdk/tree/master/examples)
+[Checkout examples](https://github.com/cloudipsp/node-js-sdk/tree/master/examples)
