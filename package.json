@@ -1,0 +1,29 @@
+{
+  "name": "cloudipsp-node-js-sdk",
+  "version": "1.0.2",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/has-well/cloudipsp-node-js-sdk.git"
+  },
+  "author": "D.M.",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-mocha": "^6.1.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-chai-expect": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  }
+}
