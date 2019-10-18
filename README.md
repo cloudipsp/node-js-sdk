@@ -21,7 +21,7 @@ npm install cloudipsp-node-js-sdk
 
 #### Manual installation
 ```cmd
-git clone -b master https://github.com/has-well/cloudipsp-node-js-sdk.git
+git clone -b master https://github.com/cloudipsp/node-js-sdk.git
 ```
 
 ## Required

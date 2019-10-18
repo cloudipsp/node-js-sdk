@@ -1,13 +1,13 @@
 {
   "name": "cloudipsp-node-js-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./lib/index.js",
   "scripts": {
     "test": "mocha --timeout 15000 ./test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/has-well/cloudipsp-node-js-sdk.git"
+    "url": "git+https://github.com/cloudipsp/node-js-sdk.git"
   },
   "author": "D.M.",
   "license": "GPL-3.0",
