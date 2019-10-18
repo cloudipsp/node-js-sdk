@@ -1,12 +1,12 @@
-# IPSP NODEJS-SDK
+# IPSP NODEJS-SDK (beta)
 
 <p align="center">
   <img width="200" height="200" src="https://avatars0.githubusercontent.com/u/15383021?s=200&v=4">
 </p>
 <p align="center">
-	<a href="https://www.npmjs.com/package/cloudipsp-node-js-sdk"><img src="https://img.shields.io/npm/v/cloudipsp-node-js-sdk.svg" /></a>
-	<a href="https://www.npmjs.com/package/cloudipsp-node-js-sdk"><img src="https://img.shields.io/npm/dt/cloudipsp-node-js-sdk.svg" /></a>
-	<a href="https://www.npmjs.com/package/cloudipsp-node-js-sdk"><img src="https://img.shields.io/npm/dw/cloudipsp-node-js-sdk.svg" /></a>
+	<a href="https://www.npmjs.com/package/cloudipsp-node-js-sdk"><img src="https://img.shields.io/npm/v/cloudipsp-node-js-sdk.svg" alt="raiting" /></a>
+	<a href="https://www.npmjs.com/package/cloudipsp-node-js-sdk"><img src="https://img.shields.io/npm/dt/cloudipsp-node-js-sdk.svg" alt="raiting" /></a>
+	<a href="https://www.npmjs.com/package/cloudipsp-node-js-sdk"><img src="https://img.shields.io/npm/dw/cloudipsp-node-js-sdk.svg" alt="raiting" /></a>
 </p>
 
 ## Payment service provider
