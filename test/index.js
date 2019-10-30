@@ -19,7 +19,7 @@ describe('Main API', function () {
   this.timeout(15000)
   describe('API v1', function () {
     it('create subscription url', async () => {
-      const date = new Date().toLocaleDateString()
+      const date = "2050-05-05"
       const dataCheckout = {
         order_desc: 'test order',
         currency: 'USD',
