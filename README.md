@@ -39,6 +39,7 @@ const fondy = new CloudIpsp(
   }
 )
 const requestData = {
+  order_id: 'Your Order Id',
   order_desc: 'test order',
   currency: 'USD',
   amount: '1000'
@@ -49,6 +50,17 @@ fondy.Checkout(requestData).then(data => {
   console.log(error)
 })
 
+```
+### Notice
+
+```merchant_data``` must be string. 
+
+Example:
+```
+ const merchant_data = JSON.stringify([{
+    email: 'test@fondy.eu',
+    comment: 'Some comment'
+ }])
 ```
 # Api
 
