@@ -24,6 +24,7 @@ describe('Main API', function () {
         order_desc: 'test order',
         currency: 'USD',
         amount: 1000,
+        subscription: 'Y',
         recurring_data:
           {
             every: 5,

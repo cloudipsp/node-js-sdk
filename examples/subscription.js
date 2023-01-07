@@ -14,6 +14,7 @@ const data = {
   order_desc: 'test order',
   currency: 'USD',
   amount: 1000,
+  subscription: 'Y',
   recurring_data:
   {
     every: 5,
@@ -24,7 +25,7 @@ const data = {
     Readonly: 'n'
   }
 }
-fondy.Subscription(data).then(data => {
+fondy.Checkout(data).then(data => {
   console.log(data)
 }).catch((error) => {
   console.log(error)
