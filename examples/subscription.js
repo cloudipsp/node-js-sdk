@@ -1,6 +1,7 @@
 'use strict'
 
 const CloudIpsp = require('../lib')
+const util = require('../lib/util')
 
 const fondy = new CloudIpsp(
   {
@@ -9,9 +10,11 @@ const fondy = new CloudIpsp(
   }
 )
 const date = new Date().toISOString().slice(0, 10)
+const OrderId = util.generateOrderId()
 
 const data = {
   order_desc: 'test order',
+  order_id: OrderId,
   currency: 'USD',
   amount: 1000,
   recurring_data:
@@ -25,6 +28,16 @@ const data = {
   }
 }
 fondy.Subscription(data).then(data => {
+  console.log(data)
+}).catch((error) => {
+  console.log(error)
+})
+const StopData = {
+  order_id: OrderId,
+  action: 'stop'
+}
+
+fondy.SubscriptionActions(StopData).then(data => {
   console.log(data)
 }).catch((error) => {
   console.log(error)
